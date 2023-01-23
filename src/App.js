@@ -1,10 +1,11 @@
 import './App.css';
+import Navbar from './components/Navbar/Navbar'
 
 const App = () => {
   return (
-    <div className="App">
-      <h1>dipndip</h1>
-    </div>
+    <>
+      <Navbar />
+    </>
   );
 }
 

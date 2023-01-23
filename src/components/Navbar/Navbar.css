@@ -1,0 +1,62 @@
+.app_navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--color-black);
+  padding: 1rem 2rem;
+}
+
+.app_navbar-logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.app_navbar-logo img {
+  width: 150px;
+}
+
+.app_navbar-links {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.app_navbar-links li {
+  margin: 0 1rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  
+}
+
+.app_navbar-links li:hover, .app_navbar-right a:hover {
+  color: var(--color-red);
+  transition: 0.5s ease;
+  
+}
+
+.app_navbar-right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.app_navbar-right a {
+  margin: 0 1rem;
+  text-decoration: none;
+}
+
+.email {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app_navbar-right div {
+  width: 1.5px;
+  height: 10px;
+  background-color: var(--color-red);
+}
