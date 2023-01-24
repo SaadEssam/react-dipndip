@@ -1,7 +1,58 @@
+.section_padding {
+  padding: 4rem 6rem;
+}
+
 .flex_center {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.app_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  min-height: 100vh;
+}
+
+.app_wrapper_info {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.app_wrapper_img {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-left: 2rem;
+}
+
+.app__wrapper_img-reverse {
+  justify-content: flex-start;
+  margin-right: 2rem;
+}
+
+.app_wrapper_img img {
+  width: 75%;
+}
+
+.p_Aboreto {
+  font-family: var(--font-base);
+  color: var(--color-white);
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  font-feature-settings: 'tnum' on, 'lnum' on;
+  line-height: 29.9px;
+  font-size: 23px;
 }
 
 .p_ubuntu {
@@ -12,4 +63,27 @@
   /* text-transform: capitalize; */
   line-height: 28px;
   font-size: 16px;
+}
+
+.custom_button {
+  background-color: var(--color-black);
+  color: var(--color-red);
+  font-family: var(--font-base);
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  line-height: 28px;
+  font-size: 16px;
+  padding: 0.5rem 1.5rem;
+  border-radius: 1px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border: 1px solid var(--color-red);
+  transition: all 500ms cubic-bezier(0.77, 0, 0.175, 1);	
+}
+
+.custom_button:hover {
+  background-color: var(--color-red);
+  color: var(--color-white);
+  transition: 0.7s ease;
 }

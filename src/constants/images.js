@@ -1,4 +1,5 @@
 import dipndip from '../assets/dipndip.png';
+import welcome from '../assets/welcome.png';
 
 
-export default { dipndip };
+export default { dipndip, welcome };
