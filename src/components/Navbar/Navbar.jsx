@@ -29,7 +29,7 @@ const Navbar = () => {
         <TiThMenuOutline color="#fff" fontSize={27} onClick={() => setToggleMenu(true)}/>
 
         {toggleMenu && (
-          <div className="app_navbar-smallscreen_overlay flex_center slide-bottom">
+          <div className="app_navbar-smallscreen_overlay flex_center slide-left">
             <IoRestaurantOutline fontSize={27} className="overlay_close" onClick={() => setToggleMenu(false)} />
             <ul className="app_navbar-smallscreen_links">
               <li className="p_ubuntu"><a href="#home">Home</a></li>
