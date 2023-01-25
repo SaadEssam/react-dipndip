@@ -1,0 +1,42 @@
+.app_menuitem {
+  width: 100%;
+  margin: 1rem 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.app_menuitem-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.app_menuitem-sub {
+  width: 100%;
+  margin-top: 0.2rem;
+}
+
+.app_menuitem-name {
+  flex: 1;
+}
+
+.app_menuitem-dash {
+  width: 90px;
+  height: 1px;
+  background: var(--color-gray);
+  margin: 0 1rem;
+}
+
+.app_menuitem-price {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.item-name {
+  color: var(--color-red);
+}
+
+.subitem-name {
+  color: var(--color-grey);
+}

@@ -43,7 +43,7 @@
   margin-left: 2rem;
 }
 
-.app__wrapper_img-reverse {
+.app_wrapper_img-reverse {
   justify-content: flex-start;
   margin-right: 2rem;
 }
@@ -113,7 +113,7 @@
     line-height: 67px;
   }
 
-  .p_Ubuntu {
+  .p_ubuntu {
     font-size: 30px;
     line-height: 50px;
   }
@@ -157,13 +157,13 @@
     font-size: 21px;
   }
 
-  .p_Ubuntu {
+  .p_ubuntu {
     font-size: 14px;
   }
 }
 
 @media screen and (max-width: 450px) {
-  .p_Ubuntu {
+  .p_ubuntu {
     font-size: 12px;
   }
 
