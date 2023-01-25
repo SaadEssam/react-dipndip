@@ -8,6 +8,14 @@
   align-items: center;
 }
 
+.app_bg {
+  background: url('./assets/background.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
+
 .app_wrapper {
   display: flex;
   justify-content: space-between;
@@ -65,6 +73,15 @@
   font-size: 16px;
 }
 
+.headtext_Aboreto {
+  font-family: var(--font-base);
+  color: var(--color-red);
+  font-size: 50px;
+  line-height: 83.2px;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+}
+
 .custom_button {
   background-color: var(--color-black);
   color: var(--color-red);
@@ -86,4 +103,76 @@
   background-color: var(--color-red);
   color: var(--color-white);
   transition: 0.7s ease;
+}
+
+
+@media screen and (min-width: 2000px) {
+  .custom_button,
+  .p_Aboreto {
+    font-size: 37px;
+    line-height: 67px;
+  }
+
+  .p_Ubuntu {
+    font-size: 30px;
+    line-height: 50px;
+  }
+
+  .headtext_Aboreto {
+    font-size: 150px;
+    line-height: 210px;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .app_wrapper {
+    flex-direction: column;
+  }
+
+  .app_wrapper_img {
+    margin: 5rem 0 0 0;
+  }
+
+  .app_wrapper_img-reverse {
+    margin: 0 0 5rem 0;
+  }
+
+  .app_wrapper_img img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .section_padding {
+    padding: 4rem;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .section_padding {
+    padding: 4rem 2rem;
+  }
+  
+  .p_Aboreto {
+    font-size: 21px;
+  }
+
+  .p_Ubuntu {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .p_Ubuntu {
+    font-size: 12px;
+  }
+
+  .p_Aboreto {
+    font-size: 19px;
+  }
+
+  .headtext_Aboreto {
+    font-size: 45px;
+    line-height: 70px;
+  }
 }

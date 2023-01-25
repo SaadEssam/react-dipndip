@@ -12,6 +12,11 @@
   --color-white: #FFFFFF;
 }
 
+::selection {
+  background: var(--color-red);
+  color: var(--color-white);
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -49,4 +54,17 @@ a {
     -webkit-transform: translateX(0);
             transform: translateX(0);
   }
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--color-black);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #d13a3a;
 }
