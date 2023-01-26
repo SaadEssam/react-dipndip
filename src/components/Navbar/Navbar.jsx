@@ -17,6 +17,7 @@ const Navbar = () => {
         <li className="p_ubuntu"><a href="#home">Home</a></li>
         <li className="p_ubuntu"><a href="#about">About</a></li>
         <li className="p_ubuntu"><a href="#menu">Menu</a></li>
+        <li className="p_ubuntu"><a href="#blog">Blog</a></li>
         <li className="p_ubuntu"><a href="#awards">Awards</a></li>
         <li className="p_ubuntu"><a href="#contact">Contact</a></li>
       </ul>

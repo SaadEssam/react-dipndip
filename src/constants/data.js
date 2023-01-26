@@ -1,3 +1,5 @@
+import images from "./images";
+
 const crepes = [
   {
     title: 'Fettuccine crepe',
@@ -54,5 +56,28 @@ const Beverages = [
   },
 ];
 
+const blogs = [
+  {
+    title: 'THE RED MENU!',
+    date: 'Sep 26, 2021',
+    image: images.blog02
+  },
+  {
+    title: 'DIPNDIP BRAND TO BECOME A STAPLE',
+    date: 'Sep 26, 2021',
+    image: images.blog03
+  },
+  {
+    title: 'TWO TOP-SELLING DESSERTS OUR COOKIES',
+    date: 'Sep 26, 2021',
+    image: images.blog04
 
-export default { crepes, Beverages };
+  },
+  {
+    title: 'MOCHA, COOKIES N CREAM, AND MORE!  ',
+    date: 'Sep 26, 2021',
+    image: images.blog05
+  },
+];
+
+export default { crepes, Beverages, blogs };

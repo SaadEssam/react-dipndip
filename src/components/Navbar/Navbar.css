@@ -34,7 +34,7 @@
 
 .app_navbar-links li:hover, .app_navbar-right a:hover {
   color: var(--color-red);
-  transition: 0.5s ease;
+  transition: 0.5s ease-in-out;
   
 }
 
