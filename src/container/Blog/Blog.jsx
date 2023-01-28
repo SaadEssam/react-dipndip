@@ -13,11 +13,20 @@ const Blog = () => {
       </div>
       <div className="app_blog-container">
         <div className="app_blog-container_groupA">
-          <Article image={images.blog01} date="Sep 26, 2021" title="MOCHA, COOKIES N CREAM, TOFFEE NUT, BLUEBERRY CHEESECAKE, AND MORE!  " />
+          <Article 
+            image={images.blog01} 
+            date="Sep 26, 2021" 
+            title="MOCHA, COOKIES N CREAM, TOFFEE NUT, BLUEBERRY CHEESECAKE, AND MORE!"
+          />
         </div>
         <div className="app_blog-container_groupB">
           {data.blogs.map((blog, index) => (
-            <Article key={blog.title + index} title={blog.title} image={blog.image} date={blog.date} />
+            <Article 
+              key={blog.title + index} 
+              title={blog.title} 
+              image={blog.image} 
+              date={blog.date}
+            />
           ))}
         </div>
       </div>

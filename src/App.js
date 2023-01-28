@@ -4,6 +4,7 @@ import Header from './container/Header/Header';
 import AboutUs from './container/AboutUs/AboutUs';
 import SpecialMenu from './container/Menu/SpecialMenu';
 import Blog from './container/Blog/Blog';
+import Intro from './container/Intro/Intro';
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <AboutUs />
       <SpecialMenu />
       <Blog />
+      <Intro />
     </>
   );
 }
