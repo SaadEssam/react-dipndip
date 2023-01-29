@@ -55,14 +55,14 @@
 }
 
 
-@media screen and (max-width: 2000px) {
+@media screen and (min-width: 2000px) {
   .app_specialMenu-menu_img {
     width: 410px;
   }
 
-  /* .app_specialMenu-menu_img img {
+  .app_specialMenu-menu_img img {
     height: 920px;
-  } */
+  }
 }
 
 @media screen and (max-width: 1150px) {

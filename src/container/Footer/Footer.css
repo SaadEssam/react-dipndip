@@ -74,7 +74,7 @@
 @media screen and (min-width: 2000px) {
   .app_footer-headtext {
     font-size: 51px;
-    line-height: 64px;
+    line-height: 61.6px;
   }
 }
 
@@ -101,7 +101,7 @@
 }
 
 @media screen and (max-width: 350px) {
-  .app_footer-links_logo img {
+  .app_footer-links_logo img:first-child {
     width: 80%;
   }
 }
