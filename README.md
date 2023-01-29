@@ -1,5 +1,5 @@
 ## React-dipndip-website
-[https://dipndip.netlify.app/](https://dipndip.netlify.app/){:target="_blank"}
+<a href="https://dipndip.netlify.app/" target="_blank">https://dipndip.netlify.app/</a>
 
 
 ## Screenshot
