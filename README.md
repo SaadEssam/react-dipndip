@@ -2,7 +2,7 @@
 
 
 ## Screenshot
-![](https://github.com/SaadEssam/react-dipndip/blob/main/Screenshot.PNG)
+![](https://github.com/SaadEssam/react-dipndip/blob/main/Screenshot.png)
 
 # Getting Started with Create React App
 
