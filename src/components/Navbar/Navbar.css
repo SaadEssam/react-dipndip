@@ -49,6 +49,13 @@
   text-decoration: none;
 }
 
+.app_navbar-right svg {
+  margin-top: 0.8px;
+  margin-right: 3px;
+  font-size: 17px
+  
+}
+
 .email {
   display: flex;
   justify-content: center;
@@ -57,7 +64,7 @@
 
 .app_navbar-right div {
   width: 1.5px;
-  height: 10px;
+  height: 15px;
   background-color: var(--color-red);
 }
 

@@ -22,9 +22,9 @@ const Navbar = () => {
         <li className="p_ubuntu"><a href="#contact">Contact</a></li>
       </ul>
       <div className="app_navbar-right">
-        <a href="#email" className="p_ubuntu email"><MdMailOutline fontSize={17} />Info@dipndip.com</a>
+        <a href="#email" className="p_ubuntu email"><MdMailOutline />Info@dipndip.com</a>
         <div />
-        <a href="#/" className="p_ubuntu">Book Table</a>
+        <a href="#" className="p_ubuntu">Book Table</a>
       </div>
       <div className="app_navbar-smallscreen">
         <TiThMenuOutline color="#fff" fontSize={27} onClick={() => setToggleMenu(true)}/>
