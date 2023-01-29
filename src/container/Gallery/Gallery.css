@@ -16,8 +16,10 @@
 
 .app_gallery-description {
   color: var(--color-grey);
-  margin-top: 2rem;
+  margin-top: 1rem;
+  font-size: 16px;
 }
+
 .app_gallery-content button {
   margin-top: 1rem;
 }

@@ -30,6 +30,9 @@ const Blog = () => {
           ))}
         </div>
       </div>
+      <div className="blog-button flex_center">
+        <button type="button" className="custom_button">Read More</button>
+      </div>
     </div>
   );
 }
