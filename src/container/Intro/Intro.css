@@ -23,7 +23,7 @@
   cursor: pointer;
 }
 
-.app_video-overlay_circle * {
+.app_video-overlay_circle svg {
   color: var(--color-white);
   font-size: 30px;
 }

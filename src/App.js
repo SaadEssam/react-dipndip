@@ -6,6 +6,7 @@ import SpecialMenu from './container/Menu/SpecialMenu';
 import Blog from './container/Blog/Blog';
 import Intro from './container/Intro/Intro';
 import Gallery from './container/Gallery/Gallery';
+import Footer from './container/Footer/Footer';
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
       <Blog />
       <Intro />
       <Gallery />
+      <Footer />
     </>
   );
 }
