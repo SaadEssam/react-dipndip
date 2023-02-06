@@ -41,7 +41,7 @@ const Footer = () => {
       </div>
 
       <div className="footer_copyright">
-        <p className="p_ubuntu">© 2023 DipnDip. All Rights reserved.</p>
+        <p className="p_ubuntu">&copy; {new Date().getFullYear()} DipnDip. All Rights reserved.</p>
       </div>
     </div>
   );
